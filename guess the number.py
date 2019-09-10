@@ -8,6 +8,8 @@ for i in range(21):
     a[i] = str(i+1).zfill(2)
 # print (a)
 
+#loops
+
 for i in range(7):
     print(str(a[i + (2*i)]) + "  " + str(a[(i)+1+(2*i)]) + "  " + str(a[(i)+2+(2*i)]))
 
